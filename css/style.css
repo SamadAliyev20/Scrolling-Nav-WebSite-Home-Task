@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.contain {
+    background-color: #0d6efd;
+    font-size: 16px;
+    text-align: center;
+    padding: 152px 0 96px;
+    color: #ffff;
+}
+.contain h1{
+    font-size: 43px;
+    margin: 0 0 8px;
+}
+.contain p
+{
+ font-size: 21px;
+ margin: 0 0 2rem;
+}
+.contain a
+{
+  color: black;
+  padding: 13px 15px;
+  font-size: 20px;
+  background-color: #ffff;
+  border-radius: 0.28rem;
+  font-weight: 500;
+}
+#about
+{
+ color: #212529;
+ font-size: 16px;
+ padding: 144px 0;
+ width: 100%;
+ text-align: center;
+ justify-content: center;
+}
+#about h2
+{
+font-size: 32px;
+margin: 0 0 8px;
+margin-right: 29rem;
+}
+#about p
+{
+  font-size: 20px;
+  margin: 0 0 16px;
+  width: 43%;
+  margin-left: 37rem;
+  text-align: justify;
+}
+
+#about ul
+{
+font-size: 18px;
+margin: 0 36rem 2rem;
+padding: 0 0 0 2rem;
+width: 50%;
+text-align: left;
+font-weight: 500;
+}
+#service
+{
+ padding: 144px 0px;
+ text-align: center;
+ background-color: #f8f9fa;
+ color: #212529;
+}
+#service h2{
+    font-size: 32px;
+margin: 0 0 8px;
+margin-right: 28rem;
+} 
+#service p{
+  font-size: 20px;
+  margin: 0 0 16px;
+  width: 43%;
+  margin-left: 37rem;
+  text-align: justify;
+}
+#contact
+{
+ padding: 144px 0px;
+ text-align: center;
+ color: #212529;
+}
+#contact h2{
+    font-size: 32px;
+margin: 0 0 8px;
+margin-right: 33rem;
+} 
+#contact p{
+  font-size: 20px;
+  margin: 0 0 16px;
+  width: 43%;
+  margin-left: 37rem;
+  text-align: justify;
+}
+#footer{
+    background-color: #212529;
+    color: #fff;
+    padding: 48px 0px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+#navbar
+{
+ background-color: #212529;
+ padding: 20px 0;
+background-attachment: fixed;
+ text-align: end;
+ font-size: 17px;
+ font-weight: 500;
+ 
+
+}
+#navbar .about
+{
+  color:#ffffff8c;
+  margin-right: 0.25rem;
+  padding: 8px;
+}
+#navbar .services
+{
+  color:#ffffff8c ;
+  margin-right: 0.25rem;
+  padding: 8px;
+
+  
+}
+#navbar .contact
+{
+  color: #ffffff8c;
+  margin-right: 20rem;
+  padding: 8px;
+
+}
+#navbar :hover
+{
+  color: #f8f9fa;
+  transition: .5s;
+}
